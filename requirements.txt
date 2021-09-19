@@ -13,8 +13,8 @@ Pillow
 click
 colorama
 dlib
-face-recognition
 opencv-python
 pip
 setuptools
 wheel
+face-recognition
