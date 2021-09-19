@@ -14,7 +14,7 @@ app = Flask(__name__)
 #def home():
 #    return render_template("index.html")
 
-@app.route("/Proctored")
+@app.route("/")
 def move():
     cam = cv2.VideoCapture(0)
     while cam.isOpened():
