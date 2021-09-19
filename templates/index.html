@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Team ULTRANOOBS</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <img src="static/logo.png" class="logo" sizes="small">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Register for Exam</a></li>
+                    <li><a href="#">Solve your doubts</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h1>RESONATE - EDUCODE TRACK PROJECT</h1>
+                <p>Universities and institutions have been shut down due to Covid-19, 
+                    a world so advanced yet feels short of intelligence that can overcome this effectively. 
+                    <br>In this world full of unknown dimensions, let us explore various dimensions of life by uniting technology and knowledge.</p>
+
+                    <div>
+                        <form method=POST, action="{{url_for('Proctored')}}">
+                            <button type="submit" value="Proctored"><span></span>Proctored Exam</button>
+                        </form>
+                        <form method=POST, action="{{url_for('FaceRecognition')}}">
+                        <button type="submit" value="FaceRecognition"><span></span>Attendance</button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
